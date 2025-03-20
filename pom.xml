@@ -11,7 +11,8 @@
 	<groupId>top.fengye</groupId>
 	<artifactId>mcp-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mcp-demo</name>
+    <packaging>pom</packaging>
+    <name>mcp-demo</name>
 	<description>mcp-demo</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,11 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>server</module>
+		<module>client</module>
+	</modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
