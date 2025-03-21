@@ -1,8 +1,0 @@
-spring:
-  ai:
-    mcp:
-      server:
-        stdio: true
-        name: weather-mcp-server
-        version: 1.0.0
-        type: SYNC
