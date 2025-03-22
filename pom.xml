@@ -24,6 +24,7 @@
     <modules>
         <module>server</module>
 		<module>client</module>
+		<module>llm</module>
 	</modules>
     <scm>
 		<connection/>
